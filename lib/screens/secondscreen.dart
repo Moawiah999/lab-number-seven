@@ -73,6 +73,9 @@ class _MysecondsecreenState extends State<Mysecondsecreen> {
                 ),
               ),
             ),
+            Divider(
+              height: 12,
+            ),
             RadioListTile(
               title: Text("Business"),
               value: "Business",
@@ -103,6 +106,9 @@ class _MysecondsecreenState extends State<Mysecondsecreen> {
                   style: TextStyle(fontSize: 23),
                 ),
               ),
+            ),
+            Divider(
+              height: 15,
             ),
             CheckboxListTile(
               secondary: Icon(Icons.home),
