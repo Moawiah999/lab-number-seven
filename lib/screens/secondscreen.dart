@@ -21,6 +21,7 @@ class _MysecondsecreenState extends State<Mysecondsecreen> {
       appBar: AppBar(),
       body: Container(
         child: ListView(
+          physics: BouncingScrollPhysics(),
           children: [
             Center(
               child: Container(
