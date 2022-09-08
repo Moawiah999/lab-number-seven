@@ -50,6 +50,8 @@ class _MyfirstscreenState extends State<Myfirstscreen> {
                 "Jordan",
                 style: TextStyle(color: Colors.black),
               ),
+              subtitle: Text("           Amman",
+                  style: TextStyle(color: Colors.black)),
               secondary: Icon(
                 Icons.drive_eta,
                 color: Colors.black,
@@ -72,6 +74,8 @@ class _MyfirstscreenState extends State<Myfirstscreen> {
                 "Syria",
                 style: TextStyle(color: Colors.black),
               ),
+              subtitle: Text("           Damascus",
+                  style: TextStyle(color: Colors.black)),
               secondary: Icon(
                 Icons.drive_eta,
                 color: Colors.black,
@@ -91,6 +95,8 @@ class _MyfirstscreenState extends State<Myfirstscreen> {
               activeColor: Colors.amber,
               title:
                   Text("Saudi Arabia", style: TextStyle(color: Colors.black)),
+              subtitle: Text("           Riyadh",
+                  style: TextStyle(color: Colors.black)),
               secondary: Icon(
                 Icons.drive_eta,
                 color: Colors.black,
